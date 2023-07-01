@@ -1,0 +1,38 @@
+{
+    "map_attr": {
+        "width": 9,
+        "height": 2,
+		"max_steps": 1000,
+		"timeout": 3.0
+    },
+    "map_state": {
+        "agvs": [ 
+					{"x": 1,"y": 1,"id": 0,"payload":null,"cap":1}, 
+					{"x": 7,"y": 1,"id": 1,"payload":null,"cap":1}  
+				],   
+        "cargos": [  
+					{"x": 2,"y": 1,"id": 0,"target": 1}, 
+					{"x": 6,"y": 1,"id": 1,"target": 0}  
+				],
+        "shelves": [
+					{"x": 0,"y": 1,"id": 0,"payload": null},
+					{"x": 8,"y": 1,"id": 1,"payload": null}  
+				],
+		"maps": [
+			{"x": 0,"y": 0,"type":"wall","id":null}, 
+			{"x": 1,"y": 0,"type":"wall","id":null},
+			{"x": 2,"y": 0,"type":"wall","id":null},
+			{"x": 3,"y": 0,"type":"wall","id":null},
+			{"x": 5,"y": 0,"type":"wall","id":null},
+			{"x": 6,"y": 0,"type":"wall","id":null},
+			{"x": 7,"y": 0,"type":"wall","id":null},
+			{"x": 8,"y": 0,"type":"wall","id":null},
+			{"x": 1,"y": 1,"type":"agv","id":0}, 
+			{"x": 7,"y": 1,"type":"agv","id":1}, 
+			{"x": 2,"y": 1,"id": 0,"type": "cargo"}, 
+			{"x": 6,"y": 1,"id": 1,"type": "cargo"},
+			{"x": 0,"y": 1,"id": 0,"type": "shelf"},
+			{"x": 8,"y": 1,"id": 1,"type": "shelf"}  
+		]
+    }
+}

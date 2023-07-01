@@ -1,0 +1,210 @@
+{
+    "map_attr": {
+        "width": 10,
+        "height": 7,
+        "max_steps": 200,
+        "timeout": 3
+    },
+    "map_state": {
+        "agvs": [
+            {
+                "id": 0,
+                "name": "agvs_0",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 1,
+                "name": "agvs_1",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 2,
+                "name": "agvs_2",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 3,
+                "name": "agvs_3",
+                "payload": null,
+                "cap": 1
+            }
+        ],
+        "cargos": [
+            {
+                "id": 0,
+                "name": "cargos_0",
+                "target": 0,
+                "weight": 1
+            },
+            {
+                "id": 1,
+                "name": "cargos_1",
+                "target": 1,
+                "weight": 1
+            },
+            {
+                "id": 2,
+                "name": "cargos_2",
+                "target": 2,
+                "weight": 1
+            },
+            {
+                "id": 3,
+                "name": "cargos_3",
+                "target": 3,
+                "weight": 1
+            },
+            {
+                "id": 4,
+                "name": "cargos_4",
+                "target": 4,
+                "weight": 1
+            },
+            {
+                "id": 5,
+                "name": "cargos_5",
+                "target": 5,
+                "weight": 1
+            },
+            {
+                "id": 6,
+                "name": "cargos_6",
+                "target": 6,
+                "weight": 1
+            },
+            {
+                "id": 7,
+                "name": "cargos_7",
+                "target": 7,
+                "weight": 1
+            }
+        ],
+        "shelves": [
+            {
+                "id": 0,
+                "name": "shelves_0",
+                "payload": 7,
+                "cap": 1
+            },
+            {
+                "id": 1,
+                "name": "shelves_1",
+                "payload": 6,
+                "cap": 1
+            },
+            {
+                "id": 2,
+                "name": "shelves_2",
+                "payload": 5,
+                "cap": 1
+            },
+            {
+                "id": 3,
+                "name": "shelves_3",
+                "payload": 4,
+                "cap": 1
+            },
+            {
+                "id": 4,
+                "name": "shelves_4",
+                "payload": 3,
+                "cap": 1
+            },
+            {
+                "id": 5,
+                "name": "shelves_5",
+                "payload": 2,
+                "cap": 1
+            },
+            {
+                "id": 6,
+                "name": "shelves_6",
+                "payload": 1,
+                "cap": 1
+            },
+            {
+                "id": 7,
+                "name": "shelves_7",
+                "payload": 0,
+                "cap": 1
+            }
+        ],
+        "maps": [
+            {
+                "x": 2,
+                "y": 2,
+                "type": "agv",
+                "id": 0
+            },
+            {
+                "x": 4,
+                "y": 2,
+                "type": "agv",
+                "id": 1
+            },
+            {
+                "x": 6,
+                "y": 2,
+                "type": "agv",
+                "id": 2
+            },
+            {
+                "x": 8,
+                "y": 2,
+                "type": "agv",
+                "id": 3
+            },
+            {
+                "x": 2,
+                "y": 4,
+                "type": "shelf",
+                "id": 0
+            },
+            {
+                "x": 4,
+                "y": 4,
+                "type": "shelf",
+                "id": 1
+            },
+            {
+                "x": 6,
+                "y": 4,
+                "type": "shelf",
+                "id": 2
+            },
+            {
+                "x": 8,
+                "y": 4,
+                "type": "shelf",
+                "id": 3
+            },
+            {
+                "x": 2,
+                "y": 5,
+                "type": "shelf",
+                "id": 4
+            },
+            {
+                "x": 4,
+                "y": 5,
+                "type": "shelf",
+                "id": 5
+            },
+            {
+                "x": 6,
+                "y": 5,
+                "type": "shelf",
+                "id": 6
+            },
+            {
+                "x": 8,
+                "y": 5,
+                "type": "shelf",
+                "id": 7
+            }
+        ]
+    }
+}
